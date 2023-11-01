@@ -1,4 +1,4 @@
-package com.test;
+package com.test.done;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,6 @@ public class GradingStudents {
 			if (grades.get(i) >= 38) {
 				int rem = grades.get(i) % 5;
 				if (rem >= 3) {
-					System.out.println("Adding");
 					grades.add(i, grades.get(i) + (5 - rem));
 					grades.remove(i + 1);
 				}
