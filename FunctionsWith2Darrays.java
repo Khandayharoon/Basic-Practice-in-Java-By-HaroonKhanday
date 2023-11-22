@@ -17,6 +17,7 @@ public class FunctionsWith2Darrays {
 				arr[i][j] = s.nextInt();
 			}
 		}
+		s.close();
 		return arr;
 	}
 	
