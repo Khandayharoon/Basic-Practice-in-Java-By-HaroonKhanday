@@ -23,7 +23,7 @@ public class NumberofGoodPairs {
 		}
 			
 		
-		return 0;
+		return identicalParis;
 		
 		
 
