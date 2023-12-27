@@ -11,7 +11,7 @@ public class FibonacciSeries {
 		num = s.nextInt();
 		int a = 0;
 		int b = 1;
-		System.out.print(a + "," + b + ",");
+//		System.out.print(a + "," + b + ",");
 		while (count <= num) {
 			int temp = b;
 			b = b + a;
